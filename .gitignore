@@ -1,0 +1,17 @@
+# Virtualenv
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+
+# Base de données locale (si pas nécessaire pour les autres)
+cineflow.db
+
+# Uploads (garde éventuellement un .gitkeep)
+uploads/*
