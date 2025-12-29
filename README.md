@@ -46,5 +46,3 @@ http://127.0.0.1:5000/
 http://127.0.0.1:5000/api/auth/user/1
 
 ```
-
-khas ytla3lk chi haja khawya machi 404 not found 
