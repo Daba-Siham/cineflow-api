@@ -1,4 +1,3 @@
-# models/auth.py
 from database import get_connection
 
 

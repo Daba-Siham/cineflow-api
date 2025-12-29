@@ -1,4 +1,3 @@
-# models/favorites.py
 from database import get_connection
 
 def get_favorites_by_user(user_id):
@@ -10,8 +9,6 @@ def get_favorites_by_user(user_id):
     )
     rows = cursor.fetchall()
     conn.close()
-
-    # on transforme en liste de dict pour pouvoir faire jsonify()
     return [dict(row) for row in rows]
 
 

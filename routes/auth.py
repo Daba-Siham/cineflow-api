@@ -1,4 +1,3 @@
-# routes/auth.py
 from werkzeug.utils import secure_filename
 from uuid import uuid4
 import os
